@@ -133,7 +133,7 @@ The generated dataset includes the following attributes:
 <br>
 
 
-##  Final Takeaways
+## 📈Final Takeaways
 
 - Homes across most cities are selling **below asking**, indicating a **buyer’s market**.
 - The average **Consecutive Days on Market (CDOM)** suggests homes are spending **~45 days** on the market before selling.
@@ -142,7 +142,7 @@ The generated dataset includes the following attributes:
 
 
 
-##  Future Enhancements
+## 🚀Future Enhancements
 
 -  **Integrate mortgage data** to analyze monthly payment scenarios and affordability trends by city.
 -  **Add time-series analysis** to observe how listing prices, DOM, and sell-to-list ratios shift **month over month**.
