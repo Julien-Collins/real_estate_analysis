@@ -1,6 +1,6 @@
 # 🏡 Real Estate Market Analysis – Simulated MLS Insights
 
-This project simulates a real estate market using a synthetic dataset modeled after MLS property listings. It includes over 1,000 property records across two fictional counties and 24 made-up cities. The goal is to analyze pricing dynamics, competitiveness, tax assessments, and listing characteristics using SQL within a PostgreSQL environment.
+This project simulates a real estate market using a synthetic dataset modeled after MLS property listings. It includes over 1,000 property records across 24 made-up cities. The goal is to analyze pricing dynamics, competitiveness, tax assessments, and listing characteristics using SQL within a PostgreSQL environment.
 
 This end-to-end project demonstrates real-world data analytics workflow—covering data generation, relational database design, SQL querying, and interpretation of insights. It’s designed with the kind of work analysts perform at PropTech companies like **Redfin**, **Opendoor**, or **Zillow** in mind.
 
@@ -38,6 +38,10 @@ The generated dataset includes the following attributes:
 - Location: Street Address, City, State, Zip  
 - Financials: Original List Price, Selling Price, Tax Rate, Annual Property Tax  
 - Performance: Days on Market (CDOM), Price per Sq Ft
+<br>
+
+![Script Snippet](fake_data_python_new.png)
+<br>
 
 ## 🔎Key SQL Queries & Insights
 
