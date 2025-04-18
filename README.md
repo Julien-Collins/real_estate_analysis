@@ -39,9 +39,9 @@ The generated dataset includes the following attributes:
 - Financials: Original List Price, Selling Price, Tax Rate, Annual Property Tax  
 - Performance: Days on Market (CDOM), Price per Sq Ft
 
-## 🔎 Key SQL Queries & Insights
+##🔎Key SQL Queries & Insights
 
-## 📊 Query 1: How Expensive is Each Square Foot?
+##📊Query 1: How Expensive is Each Square Foot?
 <br>
 
 - To begin my analysis, I pulled the average price per square foot of all sold homes to get an idea of the overall pricing landscape:
@@ -52,7 +52,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## 🏙️ Query 2: Top Cities by Avg Home Sales Price
+##🏙️Query 2: Top Cities by Avg Home Sales Price
 
 <br>
 
@@ -70,7 +70,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## 🧱 Query 3: AVG Property Specs by City 
+##🧱Query 3: AVG Property Specs by City 
 <br> 
 
 - Now, knowing the average price ranges, I created a query to evaluate the average specs for homes per city.
@@ -81,7 +81,7 @@ The generated dataset includes the following attributes:
 
 ![Avg Specs per City](./avg_specs_percity_Screenshot%202025-04-17%20113838.png)
 
-## ⏳ Query 4: CDOM (Days on Market)
+##⏳Query 4: CDOM (Days on Market)
 <br>
 
 - Next, I pulled the average consecutive days on market (CDOM) per city with the parameter that each city had over 30 sales during the 6 month span.
@@ -94,7 +94,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## 🧾 Query 5: Original List Price vs Selling Price
+##🧾Query 5: Original List Price vs Selling Price
 <br>
 
 - To assess the market further, I found the total dollar amount and percentage difference between the original listing price and the actual selling price (of that same home) and grouped by city.
@@ -112,7 +112,7 @@ The generated dataset includes the following attributes:
 - Given the statistically significant transaction total of Josephhaven, Port Pamela, Duketon, and North Lance, we can look at those price differences to get a better gauge for the overall market.
 - Most homes are selling within 3-4.5% under ask.
 
-## 💰 Query 6: Are Homeowners Overpaying in Property Taxes?
+##💰Query 6: Are Homeowners Overpaying in Property Taxes?
 <br> 
 
 - Here, I utilize a query to breakdown the avgerage annual tax rates on these fake homes against real tax data I gathered on county assessor sites.
