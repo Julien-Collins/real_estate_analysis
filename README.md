@@ -39,7 +39,9 @@ The generated dataset includes the following attributes:
 - Financials: Original List Price, Selling Price, Tax Rate, Annual Property Tax  
 - Performance: Days on Market (CDOM), Price per Sq Ft
 
-## Query 1:
+## 🔎 Key SQL Queries & Insights
+
+## 📊 Query 1: How Expensive is Each Square Foot?
 <br>
 
 - To begin my analysis, I pulled the average price per square foot of all sold homes to get an idea of the overall pricing landscape:
@@ -50,7 +52,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## Query 2:
+## 🏙️ Query 2: Top Cities by Avg Home Sales Price
 
 <br>
 
@@ -68,7 +70,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## Query 3: 
+## 🧱 Query 3: AVG Property Specs by City 
 <br> 
 
 - Now, knowing the average price ranges, I created a query to evaluate the average specs for homes per city.
@@ -79,7 +81,7 @@ The generated dataset includes the following attributes:
 
 ![Avg Specs per City](./avg_specs_percity_Screenshot%202025-04-17%20113838.png)
 
-## Query 4: 
+## ⏳ Query 4: CDOM (Days on Market)
 <br>
 
 - Next, I pulled the average consecutive days on market (CDOM) per city with the parameter that each city had over 30 sales during the 6 month span.
@@ -92,7 +94,7 @@ The generated dataset includes the following attributes:
 
 <br>
 
-## Query 5:
+## 🧾 Query 5: Original List Price vs Selling Price
 <br>
 
 - To assess the market further, I found the total dollar amount and percentage difference between the original listing price and the actual selling price (of that same home) and grouped by city.
@@ -110,7 +112,7 @@ The generated dataset includes the following attributes:
 - Given the statistically significant transaction total of Josephhaven, Port Pamela, Duketon, and North Lance, we can look at those price differences to get a better gauge for the overall market.
 - Most homes are selling within 3-4.5% under ask.
 
-## Query 6: Property Taxes vs Selling Price Diff
+## 💰 Query 6: Are Homeowners Overpaying in Property Taxes?
 <br> 
 
 - Here, I utilize a query to breakdown the avgerage annual tax rates on these fake homes against real tax data I gathered on county assessor sites.
@@ -151,13 +153,6 @@ The generated dataset includes the following attributes:
 
 ## 👀 Why It Matters
 
-This project reflects the skills needed in a real PropTech analyst role—cleaning and modeling messy data, running performant SQL, and deriving insights that impact pricing, market targeting, and customer-facing dashboards. A potential employer (like Redfin or Opendoor) will see your ability to take raw real estate data and turn it into something strategic.
-
-
-
-
-
-
-
+This project reflects the skills needed in a real PropTech analyst role—cleaning and modeling messy data, running performant SQL, and deriving insights that impact pricing, market targeting, and customer-facing dashboards. 
 
 
