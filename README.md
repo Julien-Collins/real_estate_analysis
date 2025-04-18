@@ -1,6 +1,6 @@
-# Real Estate Analysis
+# Real Estate Analysis - Market Conditions
 
-This project demonstrates the use of a synthetic real estate dataset to simulate MLS-style property listings for 2 made up counties and 24 fake cities. It involves data generation, database design, and analysis, all implemented using SQL in PostgreSQL. The project showcases SQL queries for real estate analysis, including property sales trends, price per square foot, and tax rate comparisons over a 6 month period. 
+This project demonstrates the use of a synthetic real estate dataset to simulate MLS-style property listings for 2 made up counties and 24 fake cities. It involves data generation, database design, and analysis, all implemented using SQL in PostgreSQL. The project showcases SQL queries for real estate analysis, including property sales trends, price per square foot, and tax rate comparisons over a 6 month period. This analysis is geared for a home buyer looking to gain insight from this market data, or alternatively, a real estate PropTech company looking for more breadth in their analysis. 
 
 ## Project Overview
 
@@ -25,6 +25,9 @@ The dataset contains over 1,000 property listings with details such as:
 - Property Tax Data (Annual Taxes, Tax Rate)
 
 A Python script was used to generate this data:
+
+<br>
+
 ![Script Snippet](fake_data_python_new.png)
 
 ## Sample Analysis
@@ -72,6 +75,40 @@ A Python script was used to generate this data:
 <br>
 
 ![Avg Specs per City](./avg_specs_percity_Screenshot%202025-04-17%20113838.png)
+
+## Query 4: 
+<br>
+
+- Next, I pulled the average consecutive days on market (CDOM) per city with the parameter that each city had over 30 sales during the 6 month span.
+- This 30-sale parameter eliminates outliers.
+- This provides a full-circle look at how fast or slow inventory is moving in any particular market. 
+
+<br>
+
+![CDOM Over 30 Sales](./cdom-over30sales-Screenshot%202025-04-17%20112726.png)
+
+<br>
+
+## Query 5:
+<br>
+
+- To assess the market further, I found the total dollar amount and percentage difference between the original listing price and the actual selling price (of that same home) and grouped by city.
+- This query explores the market dynamics of each city. If the selling price is well under the original listing price, it suggests the market is cooling; if it is much higher, then it indicates a hot market.
+- Understanding this relationship provides insight into how one can negotiate in a market.
+
+<br>
+
+
+
+<br>
+
+- As you can see, every result indicates the homes are selling for under the original asking price.
+- Given the statistically significant transaction total of Brucehaven, New Brian, , we can look at those differences to get a better gauge for the overall market.
+- Most homes are selling for 
+
+
+
+
 
 
 
